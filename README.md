@@ -12,6 +12,8 @@ Details Screen:
 
 Selecting a contact from either the random or phone contacts list will open a details screen.
 This screen will elegantly display essential contact details.
+
+
 Phase 2:
 
 Global Offline Search:
