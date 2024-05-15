@@ -2,7 +2,6 @@ package com.task.contacts.viewmodel
 
 import android.app.Application
 import android.content.Context
-import android.util.Patterns
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.liveData
@@ -18,7 +17,6 @@ import com.task.contacts.utils.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import javax.inject.Inject
-import kotlin.collections.HashMap
 
 @HiltViewModel
 class UserViewModel @Inject constructor(

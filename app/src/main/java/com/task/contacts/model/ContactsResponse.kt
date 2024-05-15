@@ -51,7 +51,6 @@ data class ContactsResponse(
             @SerializedName("title")
             val title: String?=null
         )
-
         data class Picture(
             @SerializedName("large")
             val large: String?=null,

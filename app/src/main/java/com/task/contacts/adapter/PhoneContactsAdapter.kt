@@ -1,5 +1,6 @@
 package com.task.contacts.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -7,7 +8,7 @@ import com.task.contacts.databinding.ContactsLayoutsBinding
 import com.task.contacts.model.ContactsModal
 import com.task.contacts.view.activity.MainActivity
 
-class PhoneContactsAdapter(mainActivity: MainActivity, var contactsModalArrayList: ArrayList<ContactsModal>
+class PhoneContactsAdapter(mainActivity: MainActivity, private var contactsModalArrayList: ArrayList<ContactsModal>
 ) : RecyclerView.Adapter<PhoneContactsAdapter.ViewHolder>() {
     override fun onCreateViewHolder(
         parent: ViewGroup,
@@ -25,6 +26,7 @@ class PhoneContactsAdapter(mainActivity: MainActivity, var contactsModalArrayLis
        return contactsModalArrayList.size
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     fun filterList(filteredlist: ArrayList<ContactsModal>) {
         contactsModalArrayList = filteredlist
         notifyDataSetChanged()

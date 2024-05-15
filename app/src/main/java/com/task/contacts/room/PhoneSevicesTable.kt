@@ -3,7 +3,6 @@ package com.task.contacts.room
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
-import com.task.contacts.model.ContactsResponse
 
 
 @Entity(tableName = "PhoneServices")

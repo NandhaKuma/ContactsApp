@@ -10,8 +10,8 @@ import dagger.hilt.android.qualifiers.ActivityContext
 import javax.inject.Inject
 
 class Loader @Inject constructor(@ActivityContext var context: Context) {
-    val dialog = Dialog(context)
-    var binding = CustomLoaderLayoutBinding.inflate(LayoutInflater.from(context), null, false)
+    private val dialog = Dialog(context)
+    private var binding = CustomLoaderLayoutBinding.inflate(LayoutInflater.from(context), null, false)
 
     init {
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)

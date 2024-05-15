@@ -3,11 +3,9 @@ package com.task.contacts.adapter
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.drawable.Drawable
-import android.os.CountDownTimer
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -21,8 +19,6 @@ import com.task.contacts.R
 import com.task.contacts.databinding.ContactsLayoutsBinding
 import com.task.contacts.databinding.ItemLayoutBinding
 import com.task.contacts.model.ApiContactModel
-import com.task.contacts.model.ContactsModal
-import com.task.contacts.model.ContactsResponse
 import java.util.ArrayList
 
 class ContactsAdapter (var applicationContext: Context) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {

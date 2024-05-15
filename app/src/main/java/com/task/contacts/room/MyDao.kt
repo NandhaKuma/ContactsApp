@@ -10,12 +10,8 @@ interface MyDao {
 
     @Query("Select * from PhoneServices")
     fun getPhoneServicesTable(): List<PhoneSevicesTable>
-
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertPhoneServices(details: PhoneSevicesTable)
-
-
     @Query("DELETE FROM PhoneServices")
     fun DropPhoneServices()
 
