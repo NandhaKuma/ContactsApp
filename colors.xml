@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#FF000000</color>
+    <color name="primary_green">#348D3E</color>
+    <color name="primary_black">#FFFFFF</color>
+    <color name="secondary_black">#FFFFFF</color>
+    <color name="search_black">#FFFFFF</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="red">#F67558</color>
+    <color name="grey">#333333</color>
+    <color name="primary_grey">#ADACAC</color>
+    <color name="light_blue">#EBFAFF</color>
+    <color name="stroke_grey">#BFBFBF</color>
+    <color name="dash_border_grey">#6B6F7B</color>
+    <color name="forgot_grey">#ADACAC</color>
+    <color name="add_card">#FFFFFF</color>
+
+    <color name="light_green">#66348D3E</color>
+    <color name="input_box_stroke">#ADACAC</color>
+
+    <color name="outbid_color">#FF9472</color>
+    <color name="winning_color">#06A2B4</color>
+    <color name="won_color">#60B473</color>
+    <color name="lost_color">#FF7272</color>
+
+    <color name="placeholder_grey">#AAADC4</color>
+    <color name="placeholder_grey_20">#33AAADC4</color>
+
+    <color name="selected_green">#43C644</color>
+
+    <color name="cart_remove">#FE6A69</color>
+    <color name="apply">#555555</color>
+    <color name="card_item">#333333</color>
+    <color name="line_grey">#DEDEDE</color>
+
+    <color name="tab_bg">#333333</color>
+    <color name="tab_select">#348D3E</color>
+
+    <color name="no_change_white">#FFFFFF</color>
+    <color name="no_change_black">#000000</color>
+    <color name="invoice_item_bg">#333333</color>
+    <color name="white_to_dark">#333333</color>
+    <color name="light_grey_border">#DADADA</color>
+    <color name="app_icon_color">#ffffff</color>
+    <color name="arrow_color">#FFFFFF</color>
+    <color name="no_change_red">#C71111</color>
+
+    <color name="condition_orange">#e26124</color>
+    <color name="condition_grey">#80252F3D</color>
+    <color name="condition_red">#d74343</color>
+    <color name="condition_green">#7daf38</color>
+
+</resources>

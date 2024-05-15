@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#FF000000</color>
+    <color name="app_color">#2468c6</color>
+    <color name="ripple_background">#1A000000</color>
+    <color name="red">#F41E1E</color>
+    <color name="orange">#f25015</color>
+    <color name="blue">#007bff</color>
+    <color name="input_box_stroke">#FFFFFF</color>
+    <color name="tool_view">#FFFFFF</color>
+    <color name="pink">#e83e8c</color>
+    <color name="green">#0bba28</color>
+    <color name="dark_green">#048454</color>
+    <color name="grey">#FFFFFF</color>
+    <color name="file_upload">#686868</color>
+    <color name="placeholder_grey">#FFFFFF</color>
+    <color name="colorAccent">#007bff</color>
+</resources>
