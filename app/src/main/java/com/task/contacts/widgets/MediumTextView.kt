@@ -13,11 +13,9 @@ class MediumTextView : AppCompatTextView {
     constructor(context: Context, attrs: AttributeSet?) : super(context, attrs) {
         init(context)
     }
-
     constructor(context: Context, attrs: AttributeSet?, defStyle: Int) : super(context, attrs, defStyle) {
         init(context)
     }
-
     private fun init(context: Context) {
         val t = Typeface.createFromAsset(context.assets, "fonts/futura_medium.otf")
         typeface = t
